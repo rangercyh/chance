@@ -63,7 +63,7 @@ MersenneTwister.mti = N + 1
 local Random = {}
 
 -- set new random seed
-function Random.randomseed(seed)
+function Random.seed(seed)
     init_genrand(MersenneTwister, seed)
 end
 
@@ -73,7 +73,7 @@ function Random.random()
 end
 
 --[[
-Return a random integer
+return a random integer
 NOTE the min and max are INCLUDED in the range.
 the max integer in lua is math.maxinteger
 the min is math.mininteger
