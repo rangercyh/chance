@@ -15,7 +15,7 @@ dependencies = {
     "lua ~= 5.3"
 }
 build = {
-    type = "buildin",
+    type = "builtin",
     modules = {
         tiny = "chance.lua"
     }
